@@ -1,0 +1,62 @@
+nav.nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid 1px;
+  margin-bottom: 3rem;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; 
+}
+.nav-item{
+  padding-right: 3rem;
+  text-decoration: none;
+}
+.container{
+  margin-top: 10%;
+  display: flex;
+  flex-direction: row;
+}
+.card{
+  margin-left: 10px;
+ 
+}
+.card-header{
+  border: solid 1.5px;
+  width: 300px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+.card-header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 70%;
+}
+h3{
+  text-align: center;
+  font-size: 1.5rem;
+}
+footer{
+  width: 100%;
+  bottom: 0;
+  position: fixed;
+  border-top:solid 2px;
+  text-align: center;
+}
+.countries-header{
+  border: solid 1.5px;
+  width: 300px;
+  height: 360px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 1rem;
+}
+.countries-header > img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
